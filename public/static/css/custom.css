@@ -1,0 +1,38 @@
+body { border-top:5px solid #16a085;}
+.pic { width: 100px; height: 100px;}
+.rows {	margin-top: 30px;}
+.informations { margin-top: 10px;}
+.link { margin-left: 3px;}
+a {	text-decoration: none; color:black; }
+.sub-links { margin-top: 20px; list-style: none; margin-left: -40px; }
+.cleaner { clear:both; }
+.tag { margin-left: 3px; }
+.project-list {	list-style: none; }
+.project-item { margin-left: -30px; }
+.project-name { font-size: 20px; }
+.project-description { font-size: 14px; color:black; margin-top: 10px; }
+.active { color:#c0392b; }
+.mid { margin-top: 25px; }
+.project-item {	margin-top: 15px; }
+.skill-desc { list-style: none; }
+.footer { font-size: 13px; text-align: center; }
+.xp-list { list-style: none; }
+.xp-item { margin-top: 20px; margin-left: -30px; }
+.xp-header { font-size: 20px; }
+.xp-date { font-size: 15px; }
+.xp-desc { font-size: 12px; }
+.skill-header {	margin-left: 5px; }
+.lang_change { cursor: pointer;}
+.role { font-size: 13px;}
+.skill-img { width: 50px; height: 50px; float: left; }
+.container { margin-top: 30px;}
+.both {	float:left; }
+.skill-desc { margin-left: -30px; margin-top: 10px; }
+.footer { margin-top: 150px;}
+@media screen and (max-width: 992px) {
+    .informations, .socials, .links, .content, .header { text-align: center; }
+	.sub-link:hover { cursor:pointer; background-color: #34495e; color:white; }
+}
+
+
+

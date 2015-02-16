@@ -1,0 +1,71 @@
+{
+    "app"       :   {
+        "name"  :   "Furkan BAŞARAN - Personal Web Page"
+    },
+    "main"      : {
+        "engineer":"Computer Engineer",
+        "about":"About me",
+        "projects":"Projects",
+        "skills":"Skills",
+        "experiences":"Experiences"
+    },
+    "about"    :   {
+        "string0" : "I am a software developer, designer and entrepreneur who lives in Sakarya, Turkey. I build apps and web services.",
+        "string1" : "I was born in Sakarya in 1994, started my educational life at 2001 in Istanbul, but then we moved house to Sakarya and I resumed my educational life here.",
+        "string2" : "I was graduated from Hendek AKV Technical High School in 2011 and I started Sakarya University - Computer Engineering in 2012.",
+        "string3" : "I still continue.",
+        "string4" : "I love dealing with codes. this is a kind of ambition for me that will last forever."
+    },
+    "button"    :   {
+        "exit"      :   "bye :(",
+        "register"  :   "Register",
+        "login"     :   "Login",
+        "tr"        :   "Türkçe",
+        "en"        :   "English",
+        "home"      :   "home :)",
+        "about"     :   "About",
+        "save"      :   "Save"
+    },
+    "placeholder"   :   {
+        "username"  :   "your username",
+        "password"  :   "your password",
+        "mail"      :   "your mail"
+    },
+    "text"  :   {
+        "iamnew"            :   "New to #Campusca?",
+        "iamnotnew"         :   "Already registered to #Campusca?",
+        "hi"                :   "Hi",
+        "registeredDate"    :   "Registered",
+        "email"             :   "E-Mail",
+        "rememberPassword"  :   "Lost your password?",
+        "welcome"           :   "Welcome",
+        "mobile"            :   "Stay connected your campus with Campusca mobile app!",
+        "updateMail"        :   "Update E-Mail",
+        "updatePass"        :   "Update Password",
+        "updateMessage"     :   "Update Your Personal Message",
+        "updatePic"         :   "Update Your Profile Picture",
+        "availableEmail"    :   "Your available e-mail address on our database ",
+        "newMail"           :   "New E-Mail",
+        "updatePassDesc"    :   "You must enter your current password"
+
+    },
+    "message"   :   {
+        "welcome"   :   "How about meeting new people? Both your campus! And the interior of friends? Sign in for all that and more!",
+        "welcome_h" :   "A new way to interact on campus!"
+    },
+    "error" :   {
+        "server_error"                  :   "Server Unreachable",
+        "notfound_error"                :   "Request Router Not Found",
+        "fuckedup_error"                :   "Bilinmeyen Hata Oluştu",
+        "bad_token"                     :   "Wrong Cookie, Please Check It!",
+        "wrong_username_or_password"    :   "Wrong Username or Password",
+        "not_activated"                 :   "This account not activated!",
+        "not_found"                     :   "Not found!",
+        "validation_failed"             :   "Already taken :/"
+    },
+    "info"              :   {
+        "success" : "Success",
+        "register_success" : "Success! Check your mailbox for user activation",
+        "activate_success" : "Success! Join us"
+    }
+}

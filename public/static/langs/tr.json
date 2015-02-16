@@ -1,0 +1,70 @@
+{
+    "app"       :   {
+        "name"  :   "Furkan BAŞARAN - Kişisel Web Sayfası"
+    },
+    "main"      : {
+        "engineer":"Bilgisayar Mühendisi",
+        "about":"Hakkımda",
+        "projects":"Projeler",
+        "skills":"Yetenekler",
+        "experiences":"Tecrübeler"
+    },
+    "about"    :   {
+        "string0": "Sakarya'da yaşayan bir yazılım geliştiricisi, tasarımcı ve girişimciyim. Web servisleri ve uygulamalar inşa ediyorum.",
+        "string1": "1994 yılında Sakarya'da doğdum, eğitim hayatıma 2001 yılında İstanbul'da başladım ancak daha sonra Sakarya'ya taşındık ve eğitim hayatıma burada devam ettim.",
+        "string2": "2011 yılında Hendek AKV Anadolu Teknik Lisesinden mezun olup 2012 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği bölümüne başladım.",
+        "string3": "Hala öğrenimime burada devam ediyorum.",
+        "string4": "Kodlarla cebelleşmeyi seviyorum bu benim için sonsuza dek sürecek bi tutku."
+    },
+    "button"    :   {
+        "exit"      :   "bye :(",
+        "register"  :   "Register",
+        "login"     :   "Login",
+        "tr"        :   "Türkçe",
+        "en"        :   "English",
+        "home"      :   "home :)",
+        "about"     :   "About",
+        "save"      :   "Save"
+    },
+    "placeholder"   :   {
+        "username"  :   "kullanıcı adın",
+        "password"  :   "parolan",
+        "mail"      :   "epostan"
+    },
+    "text"  :   {
+        "iamnew"            :   "Hesabın yok mu?",
+        "iamnotnew"         :   "Zaten daha önceden kaydolmuştum! diyorsan",
+        "hi"                :   "Merhaba",
+        "registeredDate"    :   "Kayıt Anı",
+        "email"             :   "E-Mail",
+        "rememberPassword"  :   "Parolamı Unuttum",
+        "welcome"           :   "Hosgeldin",
+        "mobile"            :   "Campusca mobil uygulamasıyla cep telefonundayken de iletisime devam et!",
+        "updateMail"        :   "E-Posta Güncelle",
+        "updatePass"        :   "Parolanı Güncelle",
+        "updateMessage"     :   "Kişisel İletini Güncelle",
+        "updatePic"         :   "Profil Resmini Güncelle",
+        "availableEmail"    :   "Şu anda veritabanımızda kayıtlı e-posta adresin ",
+        "newMail"           :    "Yeni E-Mail",
+        "updatePassDesc"    :   "Parolanı değiştirmek için geçerli şifreni girmelisin"
+    },
+    "message"   :   {
+        "welcome"   :   "Yeni insanlarla tanışmaya ne dersin? Hem de sizin kampüsten! Peki ya içerideki arkadaşların? Hepsi ve daha fazlası için giriş yap!",
+        "welcome_h" :   "Kampüste etkileşimin yeni yolu!"
+    },
+    "error" :   {
+        "server_error"                  :   "Sunucuya Erişilemiyor",
+        "notfound_error"                :   "İstek Gönderdiğiniz Adres Hatalı",
+        "fuckedup_error"                :   "Bilinmeyen Hata Oluştu",
+        "bad_token"                     :   "Çerezlerinizde Sorun Var!",
+        "wrong_username_or_password"    :   "Kullanıcı Adı ya da Parolanız Hatalı",
+        "not_activated"                 :   "Hesabınız aktif edilmemiş, lütfen epostanızı kontrol ediniz!",
+        "not_found"                     :   "Bulunamadı!",
+        "validation_failed"             :   "Daha önceden alınmış :/"
+    },
+    "info"              :   {
+        "success" : "Başarılı",
+        "register_success" : "Son adım! Hesabının aktivasyonu için epostanı kontrol et",
+        "activate_success" : "Tamamdır artık bize katılabilirsin!"
+    }
+}
