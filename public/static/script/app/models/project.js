@@ -2,16 +2,25 @@ define(['backbone',
     'util/constants'],
     function(Backbone, constants) {
 
-        var Projects = New Backbone.Collection([
-            {"title":"title","date":"date","description":"description","url":"projectUrl","techs": ["nodeJs","mongoDB"]},
-            {"title":"title","date":"date","description":"description","url":"projectUrl","techs": ["nodeJs","mongoDB"]},
-            {"title":"title","date":"date","description":"description","url":"projectUrl","techs": ["nodeJs","mongoDB"]},
-            {"title":"title","date":"date","description":"description","url":"projectUrl","techs": ["nodeJs","mongoDB"]},
-            {"title":"title","date":"date","description":"description","url":"projectUrl","techs": ["nodeJs","mongoDB"]}
-        ]);
+        var Project = Backbone.Model.extend({
+            defaults: {
+                name: 'projectName',
+                desc: 'projectDescription',
+                date: 'projectDate',
+                tech: []
+            },
+            initialize: function(){
+                console.log("project model initializing..");
+            }
+        });
 
+        var Projects = Backbone.Collection.extend({
+            model: Project
+        })
+            
         return {
-            Projects: Projects
+            Projects: Projects,
+            Project: Project
         };
 
     }

@@ -1,3 +1,12 @@
 
     <div class="header"><h2 data-i18n="main.projects"></h2></div>
+    <div class="content">
+    	<% for(var i=0; i<projects.models.length; i++) { %>
+        <li>
+            <a href='/'>
+                <%= projects.models[i].attributes.name %>
+            </a>
+        </li>
+    <% } %>
+    </div>
 
